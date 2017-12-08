@@ -151,7 +151,7 @@ class MealTableViewController: UITableViewController {
             mealDetailViewController.meal = selectdMeal
             
         default:
-            fatalError("Unexpected segue Indentifier \(segue.identifier)")
+            fatalError("Unexpected segue Indentifier \(segue.identifier ?? "")")
         }
     }
     
