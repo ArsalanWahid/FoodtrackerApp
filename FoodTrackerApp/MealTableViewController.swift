@@ -27,7 +27,7 @@ class MealTableViewController: UITableViewController {
 //        let photo3 = UIImage(named: "meal3")
 //
         
-        guard let meal1 = Meal(name: "fuckshit", photo: photo1, rating: 2) else{
+        guard let meal1 = Meal(name: "Cherrys", photo: photo1, rating: 2) else{
             fatalError("Something bad happened while making meal object")}
         
         guard let meal2 = Meal(name: "Burget", photo: photo2, rating: 4) else{
